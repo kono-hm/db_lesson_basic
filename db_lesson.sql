@@ -68,7 +68,7 @@ SELECT name, age FROM people2 WHERE department_id = 1 ORDER BY age ASC;
 -- Q9
 SELECT AVG(age) AS average_age FROM people2 WHERE department_id = 2 AND gender = 2;
 
--- Q10  △
+-- Q10  
 SELECT p.name, d.name, r.content FROM people2 AS p JOIN reports2 AS r ON p.person_id = r.person_id JOIN departments2 AS d ON p.department_id = d.department_id;
 
 -- Q11 
