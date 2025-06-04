@@ -1,3 +1,4 @@
+
 -- Q1
 CREATE TABLE departments2 (
   department_id INT unsigned AUTO_INCREMENT PRIMARY KEY,
